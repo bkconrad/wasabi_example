@@ -1,5 +1,8 @@
 A simple demonstration for the (Wasabi Replication
-Library)[https://github.com/kaen/wasabi]. It makes a bunch of squares
+Library)[https://github.com/kaen/wasabi]. You move around and shoot circles at
+circles.
+
+WASD to move, click to shoot.
 
 To try it, clone the repo, then
 run
@@ -7,5 +10,4 @@ run
   npm install .
   node server.js
 
-Then open `index.html` in a web browser (preferably Chrome). Then open a
-few more tabs, and watch the perfectly replicated motion!
+Then go to `localhost:8080` in a modern browser, and enjoy!
