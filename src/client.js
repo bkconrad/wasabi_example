@@ -23,8 +23,6 @@ Client.prototype.init = function init() {
     this._canvas = document.createElement('canvas');
     this._canvas.width = 320;
     this._canvas.height = 460;
-    this._canvas.style.margin = 'auto';
-    this._canvas.style.display = 'block';
     this._context = this._canvas.getContext('2d');
     document.body.appendChild(this._canvas);
 

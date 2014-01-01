@@ -97,7 +97,7 @@ Server.prototype.connectionCallback = function(clientSock) {
  * @method clientScriptHandler
  */
 Server.prototype.clientScriptHandler = function(req, res) {
-    if(req.path == '/boom_client.js') {
+    if(req.path == '/wasabi_example_client.js') {
         var b = browserify();
         b.add('./src/client.js');
         b.require('./src/client.js');
