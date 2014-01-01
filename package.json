@@ -1,0 +1,14 @@
+{
+    "author":"Bryan Conrad",
+    "dependencies":{
+        "browserify": "",
+        "express": "",
+        "wasabi": "",
+        "ws": ""
+    },
+    "repository":{
+        "type":"git",
+        "url":"https://github.com/kaen/wasabi_example.git"
+    },
+    "license":"MIT"
+}

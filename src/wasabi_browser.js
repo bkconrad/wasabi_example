@@ -1,0 +1,1 @@
+../node_modules/wasabi/build/wasabi_browser.js
